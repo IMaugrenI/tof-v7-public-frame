@@ -12,7 +12,7 @@ Ein zentrales V7-Prinzip ist die harte Trennung der Räume.
 
 ## Warum das wichtig ist
 
-Diewese Räume dürfen sich gegenseitig beeinflussen, aber nicht stillschweigend dasselbe werden.
+Diese Räume dürfen sich gegenseitig beeinflussen, aber nicht stillschweigend dasselbe werden.
 
 Das bedeutet:
 

@@ -1,12 +1,12 @@
-# Redigierte Lesart
+# Reduzierte Lesart
 
-Diewerses Beispiel zeigt eine sehr kleine öffentlich unbedenkliche Lesart von V7.
+Dieses Beispiel zeigt eine sehr kleine öffentlich unbedenkliche Lesart von V7.
 
 Es verwendet **keine** echte Runtime-Dateien und keine internen Betriebsdetails.
 
 ## Beispiel-Lesart
 
-Angenommen, ein kleiner V7A-Ausschnitt verweist auf:
+Angenommen, ein kleiner V7-Ausschnitt verweist auf:
 
 - einen technischen Kernraum
 - eine getrennte Ausdrucksschicht
@@ -23,6 +23,6 @@ Eine reduzierte öffentliche Lesart darf sagen:
 
 ## Ergebnis
 
-Das Ergebnis ist weder ein Release-Hinweis noch ene Runtime-Map.
+Das Ergebnis ist weder ein Release-Hinweis noch eine Runtime-Map.
 
 Es ist nur eine kleine Außenlesart, die die strukturelle Idee bewahrt, ohne den inneren Bau offenzulegen.
