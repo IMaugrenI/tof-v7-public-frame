@@ -1,6 +1,6 @@
 # Redigierte Lesart
 
-Dieweses Beispiel zeigt eine sehr kleine öffentlich unbedenkliche Lesart von V7.
+Diewerses Beispiel zeigt eine sehr kleine öffentlich unbedenkliche Lesart von V7.
 
 Es verwendet **keine** echte Runtime-Dateien und keine internen Betriebsdetails.
 
