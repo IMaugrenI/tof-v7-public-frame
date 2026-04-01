@@ -42,13 +42,13 @@ Dieses Repository existiert, um beide Fehllesarten zu vermeiden und bewusst redu
 
 ## Einstieg
 
-- [`docs/01_core_frame.md`](docs/01_core_frame.md) — reduzierte Kernlesart
-- [`docs/02_space_boundaries.md`](docs/02_space_boundaries.md) — Trennung der Räume
-- [`docs/03_public_guardrails.md`](docs/03_public_guardrails.md) — öffentliche technische Guardrails
-- [`docs/04_public_chain.md`](docs/04_public_chain.md) — reduzierte Kettenlesart
-- [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — reduzierte Service-Map-Logik
-- [`docs/06_reading_rules.md`](docs/06_reading_rules.md) — wie dieses Repo ehrlich zu lesen ist
-- [`docs/07_repo_position.md`](docs/07_repo_position.md) — warum dieses Repo von den Produkt-Repos getrennt bleibt
+- [`docs/01_core_frame_DE.md`](docs/01_core_frame_DE.md) — reduzierte Kernlesart
+- [`docs/02_space_boundaries_DE.md`](docs/02_space_boundaries_DE.md) — Trennung der Räume
+- [`docs/03_public_guardrails_DE.md`](docs/03_public_guardrails_DE.md) — öffentliche technische Guardrails
+- [`docs/04_public_chain_DE.md`](docs/04_public_chain_DE.md) — reduzierte Kettenlesart
+- [`docs/05_reduced_service_map_DE.md`](docs/05_reduced_service_map_DE.md) — reduzierte Service-Map-Logik
+- [`docs/06_reading_rules_DE.md`](docs/06_reading_rules_DE.md) — wie dieses Repo ehrlich zu lesen ist
+- [`docs/07_repo_position_DE.md`](docs/07_repo_position_DE.md) — warum dieses Repo von den Produkt-Repos getrennt bleibt
 
 ## Was dieses Repository nicht ist
 

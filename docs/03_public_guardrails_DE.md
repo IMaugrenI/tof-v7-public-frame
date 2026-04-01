@@ -7,15 +7,15 @@ Die reduzierte öffentliche Lesart von V7 folgt einigen sichtbaren technischen L
 - Docker-first
 - Postgres-only
 - klare Servicegrenzen
-- fail-closed-Denke
+- fail-closed Denke
 - spur- und nachvollziehbarkeitsbewusste Struktur
 - plattformneutrale Innenlogik
-- LLM spät in der Kette, nicht Wahrheitskern
+- LLM spät in der Kette, nicht der Wahrheitskern
 
 ## Warum nur diese
 
-Diese Leitplanken sind öffentlich unbedenklich, weil sie Richtung zeigen, ohne sensible Umsetzungstiefe offenzulegen.
+Diese Leitplanken sind öffentlich sicher, weil sie Richtung zeigen, ohne sensible Umsetzungstiefe preiszugeben.
 
 ## Minimalregel
 
-Strukturelle Disziplin zeigen, ohne interne Betriebsmechanik zu veröffentlichen.
+Strukturdisziplin zeigen, ohne interne Betriebsmechanik offenzulegen.
