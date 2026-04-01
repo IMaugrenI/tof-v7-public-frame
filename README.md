@@ -4,12 +4,23 @@
 
 Reduced public frame for V7 as a bounded system reading with explicit separation between runtime, canon, archive, Werkbank, and bridge-planning.
 
+This repository exists to show how V7 is publicly read as a controlled system form without pretending to be the full private runtime.
+
 ## At a glance
 
-- this repository is **not** the full V7 runtime
-- this repository is **not** a product repo
-- this repository is **not** a complete service map
-- it exists to show a reduced public reading of V7 with clear technical boundaries
+- reduced public reading of V7 as a controlled system form
+- explicit separation between runtime, canon, archive, Werkbank, and bridge-planning
+- public guardrails, reduced chain reading, and redacted service-map logic
+- part of the broader public repo family around the private ToF / V’eth project line
+
+## What this repository shows
+
+- a reduced core frame for reading V7 publicly
+- clear separation of spaces and layers
+- public technical guardrails
+- a reduced public chain reading
+- a redacted service-map perspective
+- honest repo positioning inside the broader public repo family
 
 ## Why this repo exists
 
@@ -20,28 +31,14 @@ V7 can easily be misunderstood in public if it is shown either:
 
 This repository exists to prevent both mistakes while staying deliberately reduced.
 
-## What this repository is
-
-- a public boundary frame
-- a reduced reading of V7 as a controlled system form
-- a documentation repo for space separation, public guardrails, and reduced chain reading
-
-## What this repository is not
-
-- not the internal runtime
-- not the production infrastructure
-- not the private operator path
-- not a hidden code dump
-- not a substitute for the actual product repos
-
 ## How this fits into the public repo family
 
-- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) = broad public architectural frame
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = local builder stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = on-prem local knowledge system
+- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) = broad public architectural frame and project entry point
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = local builder stack and growing public build-out space
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = on-prem local knowledge system and growing public build-out space
 - [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) = legacy recovery baseline
 - [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) = bridge-planning baseline
-- this repo = reduced V7 boundary/frame reading
+- this repo = tighter V7 boundary/frame reading inside the public family
 
 ## Start here
 
@@ -52,6 +49,14 @@ This repository exists to prevent both mistakes while staying deliberately reduc
 - [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — redacted service-map logic
 - [`docs/06_reading_rules.md`](docs/06_reading_rules.md) — how to read this repo honestly
 - [`docs/07_repo_position.md`](docs/07_repo_position.md) — why this repo stays separate from the product repos
+
+## What this repository is not
+
+- not the internal runtime
+- not the production infrastructure
+- not the private operator path
+- not a hidden code dump
+- not a substitute for the actual product repos
 
 ## Public boundary
 

@@ -4,12 +4,23 @@
 
 Reduzierter öffentlicher Rahmen für V7 als begrenzte Systemlesart mit expliziter Trennung zwischen Runtime, Kanon, Archiv, Werkbank und Bridge-Planning.
 
+Dieses Repository soll zeigen, wie V7 öffentlich als kontrollierte Systemform gelesen wird, ohne sich als vollständige private Runtime auszugeben.
+
 ## Kurzüberblick
 
-- dieses Repository ist **nicht** die vollständige V7-Runtime
-- dieses Repository ist **kein** Produkt-Repo
-- dieses Repository ist **keine** vollständige Service-Map
-- es existiert, um eine reduzierte öffentliche V7-Lesart mit klaren technischen Grenzen zu zeigen
+- reduzierte öffentliche Lesart von V7 als kontrollierte Systemform
+- explizite Trennung zwischen Runtime, Kanon, Archiv, Werkbank und Bridge-Planning
+- öffentliche Guardrails, reduzierte Kettenlesart und reduzierte Service-Map-Logik
+- Teil der breiteren öffentlichen Repo-Familie rund um die private ToF / V’eth-Projektlinie
+
+## Was dieses Repository zeigt
+
+- einen reduzierten Kernrahmen für die öffentliche V7-Lesart
+- klare Trennung von Räumen und Schichten
+- öffentliche technische Guardrails
+- eine reduzierte öffentliche Kettenlesart
+- eine reduzierte Service-Map-Perspektive
+- eine ehrliche Repo-Position innerhalb der breiteren öffentlichen Repo-Familie
 
 ## Warum dieses Repo existiert
 
@@ -20,28 +31,14 @@ V7 kann öffentlich leicht falsch gelesen werden, wenn es entweder:
 
 Dieses Repository existiert, um beide Fehllesarten zu vermeiden und bewusst reduziert zu bleiben.
 
-## Was dieses Repository ist
-
-- ein öffentlicher Boundary-/Frame-Raum
-- eine reduzierte Lesart von V7 als kontrollierter Systemform
-- ein Doku-Repo für Raumtrennung, öffentliche Guardrails und reduzierte Kettenlesart
-
-## Was dieses Repository nicht ist
-
-- nicht die interne Runtime
-- nicht die Produktionsinfrastruktur
-- nicht der private Operatorpfad
-- kein versteckter Code-Dump
-- kein Ersatz für die eigentlichen Produkt-Repos
-
 ## Wie dieses Repo in die öffentliche Repo-Familie passt
 
-- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) = breiter öffentlicher Architekturrahmen
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = lokaler Builder-Stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = on-prem lokales Wissenssystem
+- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) = breiter öffentlicher Architekturrahmen und Projekteinstieg
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = lokaler Builder-Stack und wachsender öffentlicher Ausbauraum
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = on-prem lokales Wissenssystem und wachsender öffentlicher Ausbauraum
 - [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) = Legacy-Recovery-Baseline
 - [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) = Bridge-Planning-Baseline
-- dieses Repo = reduzierte V7-Boundary-/Frame-Lesart
+- dieses Repo = engere V7-Boundary-/Frame-Lesart innerhalb der öffentlichen Familie
 
 ## Einstieg
 
@@ -52,6 +49,14 @@ Dieses Repository existiert, um beide Fehllesarten zu vermeiden und bewusst redu
 - [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — reduzierte Service-Map-Logik
 - [`docs/06_reading_rules.md`](docs/06_reading_rules.md) — wie dieses Repo ehrlich zu lesen ist
 - [`docs/07_repo_position.md`](docs/07_repo_position.md) — warum dieses Repo von den Produkt-Repos getrennt bleibt
+
+## Was dieses Repository nicht ist
+
+- nicht die interne Runtime
+- nicht die Produktionsinfrastruktur
+- nicht der private Operatorpfad
+- kein versteckter Code-Dump
+- kein Ersatz für die eigentlichen Produkt-Repos
 
 ## Öffentliche Grenze
 
