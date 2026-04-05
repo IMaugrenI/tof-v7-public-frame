@@ -2,77 +2,53 @@
 
 > English is the primary text in this repository. A German clone is available in `README_DE.md`.
 
-Reduced public frame for V7 as a bounded system reading with explicit separation between runtime, canon, archive, Werkbank, and bridge-planning.
+Reduced public frame for V7 with explicit boundaries between runtime, canon, archive, Werkbank, and bridge_planning.
 
-This repository exists to show how V7 is publicly read as a controlled system form without pretending to be the full private runtime.
+I use this repo to show how V7 should be read publicly without pretending that public explanation is the same thing as private runtime truth.
 
-## At a glance
-
-- reduced public reading of V7 as a controlled system form
-- explicit separation between runtime, canon, archive, Werkbank, and bridge-planning
-- public guardrails, reduced chain reading, and redacted service-map logic
-- part of the broader public repo family around the private ToF / V’eth project line
-
-## What this repository shows
-
-- a reduced core frame for reading V7 publicly
-- clear separation of spaces and layers
-- public technical guardrails
-- a reduced public chain reading
-- a redacted service-map perspective
-- honest repo positioning inside the broader public repo family
-
-## Why this repo exists
-
-V7 can easily be misunderstood in public if it is shown either:
-
-- as if it were only a bot or chat surface
-- as if public explanation were identical with internal runtime truth
-
-This repository exists to prevent both mistakes while staying deliberately reduced.
-
-## How this fits into the public repo family
-
-- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) = broad public architectural frame and project entry point
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) = local builder stack and growing public build-out space
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) = on-prem local knowledge system and growing public build-out space
-- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) = legacy recovery baseline
-- [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) = bridge-planning baseline
-- this repo = tighter V7 boundary/frame reading inside the public family
-
-## Start here
+## start_here
 
 - [`docs/01_core_frame.md`](docs/01_core_frame.md) — reduced core reading
 - [`docs/02_space_boundaries.md`](docs/02_space_boundaries.md) — separation of spaces
-- [`docs/03_public_guardrails.md`](docs/03_public_guardrails.md) — public technical guardrails
+- [`docs/03_public_guardrails.md`](docs/03_public_guardrails.md) — public guardrails
 - [`docs/04_public_chain.md`](docs/04_public_chain.md) — reduced chain reading
-- [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — redacted service-map logic
+- [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — redacted service_map logic
 - [`docs/06_reading_rules.md`](docs/06_reading_rules.md) — how to read this repo honestly
-- [`docs/07_repo_position.md`](docs/07_repo_position.md) — why this repo stays separate from the product repos
 
-## What this repository is not
+## what_this_repo_shows
 
-- not the internal runtime
-- not the production infrastructure
-- not the private operator path
-- not a hidden code dump
-- not a substitute for the actual product repos
+1. how V7 is framed publicly as a bounded system form
+2. why runtime, canon, archive, Werkbank, and bridge_planning must stay separate
+3. reduced public chain and service_map reading
+4. public guardrails for honest interpretation
 
-## Public boundary
+## why_this_repo_exists
 
-This repository is intentionally limited.
+1. to prevent V7 from being misread as only a bot surface
+2. to prevent public explanation from being mistaken for internal runtime truth
+3. to make system boundaries readable without exposing operational details
 
-It does **not** expose:
+## what_this_repo_is_not
 
-- full runtime structure
-- production compose or infrastructure detail
-- operator security mechanics
-- internal IDs, paths, or secrets
-- real operational service maps in full depth
-- private operator logic
-- full production truth
+1. not the internal runtime
+2. not the production infrastructure
+3. not the private operator path
+4. not a hidden code dump
+5. not a substitute for the product repos
 
-## Contact
+## for_employers
 
-- GitHub: [IMaugrenI](https://github.com/IMaugrenI)
-- LinkedIn: [Jakob Kessler](https://www.linkedin.com/in/jakob-kessler-595b393b7)
+This repo is useful if you want to see how I handle:
+
+1. strict boundary thinking
+2. system reading and layered separation
+3. reduced public framing without false claims
+4. architecture documentation under public constraints
+
+## related_public_repos
+
+- [`tof_showcase`](https://github.com/IMaugrenI/tof-showcase) — broad public architecture frame
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — local builder stack
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem local knowledge system
+- [`tof_legacy_recovery_workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — recovery baseline
+- [`tof_bridge_planning_method`](https://github.com/IMaugrenI/tof-bridge-planning-method) — bridge_planning baseline
