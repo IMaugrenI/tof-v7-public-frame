@@ -2,53 +2,63 @@
 
 > Die englische Hauptfassung liegt in `README.md`.
 
-Reduzierter oeffentlicher Rahmen fuer V7 mit klaren Grenzen zwischen Runtime, Kanon, Archiv, Werkbank und bridge_planning.
+Reduzierter öffentlicher Rahmen für V7 mit expliziten Grenzen zwischen Runtime, Kanon, Archiv, Werkbank und Bridge-Planning.
 
-Ich nutze dieses Repo, um zu zeigen, wie V7 oeffentlich gelesen werden soll, ohne zu behaupten, dass oeffentliche Erklaerung dasselbe waere wie private Runtime_Wahrheit.
+Ich nutze dieses Repo, um zu zeigen, wie V7 öffentlich gelesen werden soll, ohne so zu tun, als wäre öffentliche Erklärung dasselbe wie private Runtime-Wahrheit.
 
-## start_here
+Lies dieses Repo, wenn du die öffentliche Grenze von V7 verstehen willst und nicht seine private Runtime.
+
+## Warum dieser Public Frame wichtig ist
+
+Dieses Repo ist wichtig, weil ich öffentlich nicht so tun will, als wäre ein öffentlicher Frame schon Runtime-Wahrheit.
+
+Es existiert, um zu erklären, wie V7 öffentlich gelesen werden soll, während öffentliche Erklärung und operative Wahrheit klar getrennt bleiben.
+
+Für technische Leser zeigt das, dass ich Boundary-Logik ernst nehme. Für die meisten Profilbesucher ist das nicht der erste Einstieg, sondern eher ein tieferer zweiter oder dritter Blick darauf, wie ich denke.
+
+## Einstieg
 
 - [`docs/01_core_frame.md`](docs/01_core_frame.md) — reduzierte Kernlesart
-- [`docs/02_space_boundaries.md`](docs/02_space_boundaries.md) — Trennung der Raeume
-- [`docs/03_public_guardrails.md`](docs/03_public_guardrails.md) — oeffentliche Leitplanken
+- [`docs/02_space_boundaries.md`](docs/02_space_boundaries.md) — Trennung der Räume
+- [`docs/03_public_guardrails.md`](docs/03_public_guardrails.md) — öffentliche Leitplanken
 - [`docs/04_public_chain.md`](docs/04_public_chain.md) — reduzierte Kettenlesart
-- [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — redigierte service_map Logik
-- [`docs/06_reading_rules.md`](docs/06_reading_rules.md) — wie dieses Repo ehrlich zu lesen ist
+- [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — redaktierte Service-Map-Logik
+- [`docs/06_reading_rules.md`](docs/06_reading_rules.md) — wie dieses Repo ehrlich gelesen werden soll
 
-## was_dieses_repo_zeigt
+## Was dieses Repo zeigt
 
-1. wie V7 oeffentlich als begrenzte Systemform gerahmt wird
-2. warum Runtime, Kanon, Archiv, Werkbank und bridge_planning getrennt bleiben muessen
-3. reduzierte oeffentliche Ketten_ und service_map Lesart
-4. oeffentliche Leitplanken fuer ehrliche Interpretation
+1. wie V7 öffentlich als begrenzte Systemform gerahmt wird
+2. warum Runtime, Kanon, Archiv, Werkbank und Bridge-Planning getrennt bleiben müssen
+3. reduzierte öffentliche Ketten- und Service-Map-Lesart
+4. öffentliche Leitplanken für ehrliche Interpretation
 
-## warum_dieses_repo_existiert
+## Warum dieses Repo existiert
 
-1. um zu verhindern, dass V7 nur als Bot_Oberflaeche missverstanden wird
-2. um zu verhindern, dass oeffentliche Erklaerung mit interner Runtime_Wahrheit verwechselt wird
+1. um zu verhindern, dass V7 nur als Bot-Oberfläche missverstanden wird
+2. um zu verhindern, dass öffentliche Erklärung für interne Runtime-Wahrheit gehalten wird
 3. um Systemgrenzen lesbar zu machen, ohne operative Details offenzulegen
 
-## was_dieses_repo_nicht_ist
+## Was dieses Repo nicht ist
 
 1. nicht die interne Runtime
-2. nicht die Produktionsinfrastruktur
-3. nicht der private Operator_Pfad
-4. kein versteckter Code_Dump
-5. kein Ersatz fuer die Produkt_Repos
+2. nicht die Produktions-Infrastruktur
+3. nicht der private Operator-Pfad
+4. kein versteckter Code-Dump
+5. kein Ersatz für die Produkt-Repos
 
-## fuer_arbeitgeber
+## Für Arbeitgeber
 
-Dieses Repo ist nuetzlich, wenn du sehen willst, wie ich mit folgenden Dingen umgehe:
+Dieses Repo ist nützlich, wenn du sehen willst, wie ich mit Folgendem umgehe:
 
-1. striktem Grenzdenken
-2. Systemlesart und geschichteter Trennung
-3. reduzierter oeffentlicher Rahmung ohne falsche Behauptungen
-4. Architektur_Dokumentation unter oeffentlichen Einschraenkungen
+1. strenger Boundary-Denke
+2. Systemlesung und geschichteter Trennung
+3. reduziertem öffentlichem Framing ohne falsche Behauptungen
+4. Architektur-Dokumentation unter öffentlichen Grenzen
 
-## verwandte_oeffentliche_repos
+## Verwandte öffentliche Repos
 
-- [`tof_showcase`](https://github.com/IMaugrenI/tof-showcase) — breiter oeffentlicher Architekturrahmen
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lokaler Builder_Stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem lokales Wissenssystem
-- [`tof_legacy_recovery_workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — Recovery_Baseline
-- [`tof_bridge_planning_method`](https://github.com/IMaugrenI/tof-bridge-planning-method) — bridge_planning Baseline
+- [`tof_showcase`](https://github.com/IMaugrenI/tof-showcase) — breiter öffentlicher Architekturrahmen
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lokaler Builder-Stack
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem lokales Wissenssystem
+- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — Recovery-Baseline
+- [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) — Bridge-Planning-Baseline
