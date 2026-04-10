@@ -8,7 +8,7 @@ I use this repo to show how V7 should be read publicly without pretending that p
 
 Read this repo if you want to understand the public boundary of V7, not its private runtime.
 
-## why_this_public_frame_matters
+## Why this public frame matters
 
 This repo matters because I do not want to pretend that a public frame is already runtime truth.
 
@@ -16,7 +16,7 @@ It exists to explain how V7 should be read publicly, while keeping public explan
 
 For technical readers, this shows that I take boundary logic seriously. For most profile visitors, this is not the first entry point, but a deeper second or third look into how I think.
 
-## start_here
+## Start here
 
 - [`docs/01_core_frame.md`](docs/01_core_frame.md) — reduced core reading
 - [`docs/02_space_boundaries.md`](docs/02_space_boundaries.md) — separation of spaces
@@ -25,20 +25,20 @@ For technical readers, this shows that I take boundary logic seriously. For most
 - [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — redacted service_map logic
 - [`docs/06_reading_rules.md`](docs/06_reading_rules.md) — how to read this repo honestly
 
-## what_this_repo_shows
+## What this repo shows
 
 1. how V7 is framed publicly as a bounded system form
 2. why runtime, canon, archive, Werkbank, and bridge_planning must stay separate
 3. reduced public chain and service_map reading
 4. public guardrails for honest interpretation
 
-## why_this_repo_exists
+## Why this repo exists
 
 1. to prevent V7 from being misread as only a bot surface
 2. to prevent public explanation from being mistaken for internal runtime truth
 3. to make system boundaries readable without exposing operational details
 
-## what_this_repo_is_not
+## What this repo is not
 
 1. not the internal runtime
 2. not the production infrastructure
@@ -46,7 +46,7 @@ For technical readers, this shows that I take boundary logic seriously. For most
 4. not a hidden code dump
 5. not a substitute for the product repos
 
-## for_employers
+## For employers
 
 This repo is useful if you want to see how I handle:
 
@@ -55,7 +55,7 @@ This repo is useful if you want to see how I handle:
 3. reduced public framing without false claims
 4. architecture documentation under public constraints
 
-## related_public_repos
+## Related public repos
 
 - [`tof_showcase`](https://github.com/IMaugrenI/tof-showcase) — broad public architecture frame
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — local builder stack
