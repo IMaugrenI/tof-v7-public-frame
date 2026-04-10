@@ -6,6 +6,8 @@ Reduced public frame for V7 with explicit boundaries between runtime, canon, arc
 
 I use this repo to show how V7 should be read publicly without pretending that public explanation is the same thing as private runtime truth.
 
+This repository is a public explanation layer. It shows boundary framing and reading rules more than implementation depth.
+
 Read this repo if you want to understand the public boundary of V7, not its private runtime.
 
 ## Why this public frame matters
@@ -15,6 +17,14 @@ This repo matters because I do not want to pretend that a public frame is alread
 It exists to explain how V7 should be read publicly, while keeping public explanation and operative truth clearly separate.
 
 For technical readers, this shows that I take boundary logic seriously. For most profile visitors, this is not the first entry point, but a deeper second or third look into how I think.
+
+## My role in this repo
+
+My role here is mainly:
+
+1. boundary framing and separation logic
+2. reading rules for honest public interpretation
+3. scope reduction and review
 
 ## Start here
 
