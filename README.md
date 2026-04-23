@@ -1,6 +1,6 @@
 # ToF V7 Public Frame
 
-> English is the primary text in this repository. A German clone is available in `README_DE.md`.
+> English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
 Reduced public frame for V7 with explicit boundaries between runtime, canon, archive, Werkbank, and bridge_planning.
 
@@ -9,6 +9,25 @@ I use this repo to show how V7 should be read publicly without pretending that p
 This repository is a public explanation layer. It shows boundary framing and reading rules more than implementation depth.
 
 Read this repo if you want to understand the public boundary of V7, not its private runtime.
+
+## What this repo is
+
+This repository is the reduced public boundary frame for V7.
+
+## Who it is for
+
+This repo is for technical readers who already have the broader public context and want the tighter public reading rules for V7.
+
+## What it is not
+
+This repo is not the internal runtime, not the production infrastructure, and not a substitute for private operator truth.
+
+## Where to go next
+
+- `tof-showcase` — broader public architecture and family overview
+- `docs/01_core_frame.md` — reduced core reading
+- `docs/02_space_boundaries.md` — separation of spaces
+- `docs/06_reading_rules.md` — how to read this repo honestly
 
 ## Why this public frame matters
 
@@ -67,7 +86,7 @@ This repo is useful if you want to see how I handle:
 
 ## Related public repos
 
-- [`tof_showcase`](https://github.com/IMaugrenI/tof-showcase) — broad public architecture frame
+- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) — broad public architecture frame
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — local builder stack
 - [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem local knowledge system
 - [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — recovery baseline
