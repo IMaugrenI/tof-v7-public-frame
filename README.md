@@ -33,13 +33,11 @@ This repo is not the internal runtime, not the production infrastructure, and no
 - `docs/02_space_boundaries.md` — separation of spaces
 - `docs/06_reading_rules.md` — how to read this repo honestly
 
-## Why this public frame matters
+## Why this repo exists
 
-This repo matters because I do not want to pretend that a public frame is already runtime truth.
+This repo exists to explain how V7 should be read publicly while keeping public explanation and operative truth clearly separate.
 
-It exists to explain how V7 should be read publicly, while keeping public explanation and operative truth clearly separate.
-
-For technical readers, this shows that I take boundary logic seriously. For most profile visitors, this is not the first entry point, but a deeper second or third look into how I think.
+It is a stricter second step after the broader family frame, not the first entry point for most readers.
 
 ## My role in this repo
 
@@ -65,19 +63,11 @@ My role here is mainly:
 3. reduced public chain and service_map reading
 4. public guardrails for honest interpretation
 
-## Why this repo exists
+## Why this repo exists publicly
 
 1. to prevent V7 from being misread as only a bot surface
 2. to prevent public explanation from being mistaken for internal runtime truth
 3. to make system boundaries readable without exposing operational details
-
-## What this repo is not
-
-1. not the internal runtime
-2. not the production infrastructure
-3. not the private operator path
-4. not a hidden code dump
-5. not a substitute for the product repos
 
 ## For employers
 
