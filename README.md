@@ -1,5 +1,9 @@
 # ToF V7 Public Frame
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/ToF_Banner.png" alt="ToF / V7 Public Frame Banner" width="100%" />
+</p>
+
 > English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
 Reduced public frame for V7 with explicit boundaries between runtime, canon, archive, Werkbank, and bridge_planning.
