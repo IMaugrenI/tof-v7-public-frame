@@ -1,22 +1,43 @@
 # ToF V7 Public Frame
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/ToF_Banner.png" alt="ToF / V7 Public Frame Banner" width="100%" />
+</p>
+
 > Die englische Hauptfassung liegt in `README.md`.
 
 Reduzierter öffentlicher Rahmen für V7 mit ausdrücklichen Grenzen zwischen Runtime, Kanon, Archiv, Werkbank und bridge_planning.
 
 Ich nutze dieses Repo, um zu zeigen, wie V7 öffentlich gelesen werden soll, ohne so zu tun, als sei öffentliche Erklärung dasselbe wie private Runtime-Wahrheit.
 
-Dieses Repository ist eine öffentliche Erklärungsschicht. Es zeigt vor allem Boundary-Framing und Leseregeln, nicht Umsetzungstiefe.
+Dieses Repository ist eine öffentliche Erklärungsschicht. Es zeigt Boundary-Framing und Leseregeln stärker als Umsetzungstiefe.
 
 Lies dieses Repo, wenn du die öffentliche Grenze von V7 verstehen willst und nicht seine private Runtime.
 
-## Warum dieser Public Frame wichtig ist
+## Was dieses Repo ist
 
-Dieses Repo ist wichtig, weil ich öffentlich bewusst nicht so tue, als wäre ein öffentlicher Frame schon Runtime-Wahrheit.
+Dieses Repository ist der reduzierte öffentliche Boundary-Frame für V7.
 
-Es existiert, um zu erklären, wie V7 öffentlich gelesen werden muss, während öffentliche Erklärung und operative Wahrheit klar getrennt bleiben.
+## Für wen es gedacht ist
 
-Für technische Leser zeigt das, dass ich Boundary-Logik ernst nehme. Für die meisten Profilbesucher ist es nicht der erste Einstieg, sondern eher ein tieferer zweiter oder dritter Blick in meine Denkweise.
+Dieses Repo ist für technische Leser, die bereits den breiteren öffentlichen Kontext kennen und jetzt die engere öffentliche Lesart für V7 sehen wollen.
+
+## Was es nicht ist
+
+Dieses Repo ist nicht die interne Runtime, nicht die Produktionsinfrastruktur und kein Ersatz für private operative Wahrheit.
+
+## Wohin du als Nächstes gehen kannst
+
+- `tof-showcase` — breiterer öffentlicher Architektur- und Familienüberblick
+- `docs/01_core_frame.md` — reduzierte Kernlesart
+- `docs/02_space_boundaries.md` — Trennung der Räume
+- `docs/06_reading_rules.md` — wie dieses Repo ehrlich gelesen werden soll
+
+## Warum dieses Repo existiert
+
+Dieses Repo existiert, um zu erklären, wie V7 öffentlich gelesen werden sollte, während öffentliche Erklärung und operative Wahrheit klar getrennt bleiben.
+
+Es ist ein strengerer zweiter Schritt nach dem breiteren Familien-Frame und nicht der erste Einstiegspunkt für die meisten Leser.
 
 ## Meine Rolle in diesem Repo
 
@@ -42,19 +63,11 @@ Meine Rolle hier ist vor allem:
 3. reduzierte öffentliche Ketten- und service_map-Lesart
 4. öffentliche Leitplanken für ehrliche Interpretation
 
-## Warum dieses Repo existiert
+## Warum dieses Repo öffentlich existiert
 
 1. um zu verhindern, dass V7 nur als Bot-Oberfläche missverstanden wird
 2. um zu verhindern, dass öffentliche Erklärung mit interner Runtime-Wahrheit verwechselt wird
 3. um Systemgrenzen lesbar zu machen, ohne operative Details offenzulegen
-
-## Was dieses Repo nicht ist
-
-1. nicht die interne Runtime
-2. nicht die Produktionsinfrastruktur
-3. nicht der private Operator-Pfad
-4. kein versteckter Code-Dump
-5. kein Ersatz für die Produkt-Repos
 
 ## Für Arbeitgeber
 
@@ -62,12 +75,12 @@ Dieses Repo ist nützlich, wenn du sehen willst, wie ich mit Folgendem umgehe:
 
 1. striktem Boundary-Denken
 2. Systemlesart und geschichteter Trennung
-3. reduziertem öffentlichen Framing ohne falsche Behauptungen
+3. reduziertem öffentlichem Framing ohne falsche Behauptungen
 4. Architekturdokumentation unter öffentlichen Grenzen
 
 ## Verwandte öffentliche Repos
 
-- [`tof_showcase`](https://github.com/IMaugrenI/tof-showcase) — breiter öffentlicher Architekturrahmen
+- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) — breiter öffentlicher Architekturrahmen
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lokaler Builder-Stack
 - [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem lokales Wissenssystem
 - [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — Recovery-Basis
