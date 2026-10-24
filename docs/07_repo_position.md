@@ -1,13 +1,18 @@
-# Repo position
+# Where This Reference Fits
 
-`tof-v7-public-frame` is not meant to compete with or replace the more concrete public repos.
+The repository name `tof-v7-public-frame` is preserved for compatibility with its existing history and links. Its public role is now described as a **version-tagged architecture reference**, not as the main ToF Systems entry point.
 
-Its job is different:
-- `tof-showcase` = broader public architectural story
-- `tof_local_builder` = local builder stack
-- `tof_local_knowledge` = local knowledge product direction
-- `tof-legacy-recovery-workbench` = legacy recovery baseline
-- `tof-bridge-planning-method` = planning baseline
-- `tof-v7-public-frame` = reduced V7 boundary frame
+## Public project navigation
 
-This distinction keeps the public repo family clearer.
+| Repository | Purpose |
+| --- | --- |
+| [ToF Showcase](https://github.com/IMaugrenI/tof-showcase) | Main overview of public tools, architecture, and methods |
+| [Container Pulse](https://github.com/IMaugrenI/tof_container_pulse) | Read-only local infrastructure visibility |
+| [Local Knowledge](https://github.com/IMaugrenI/tof_local_knowledge) | Local document search and grounded answers |
+| [Local Builder](https://github.com/IMaugrenI/tof_local_builder) | Controlled local AI-assisted development |
+| [Local Case Organizer](https://github.com/IMaugrenI/local_case_organizer) | Local document organization and export |
+| [Recovery Workbench](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) | Structured recovery of older material |
+| [Bridge Planning](https://github.com/IMaugrenI/tof-bridge-planning-method) | Reviewed transition from preparation into planning |
+| **This repository** | Earlier system-boundary architecture reference |
+
+This document does not turn architecture concepts into deployment claims. Read the product repositories for their own actual behavior.
