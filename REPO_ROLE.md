@@ -1,23 +1,18 @@
-# Repository role
+# Repository Role — Versioned Architecture Reference
 
-This repository is a reduced V7 public frame inside the broader public ToF repository family.
+The repository name `tof-v7-public-frame` is retained for historical continuity. Its job is to explain **selected earlier system-boundary principles** within the broader ToF Systems work.
 
-## Public entry hierarchy
+## Where visitors start
 
-The broad public entry point for public readers remains:
+The main public entry point is [ToF Showcase](https://github.com/IMaugrenI/tof-showcase). It leads to runnable tools such as Container Pulse, Local Knowledge, Local Builder, and Local Case Organizer.
 
-- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase)
+This repository is narrower: it describes how runtime, canon, archive, workbench (Werkbank), and bridge planning have different responsibilities and authority.
 
-This repository is intentionally narrower.
-It exists to present a bounded V7 reading with explicit separation between runtime,
-canon, archive, Werkbank, and bridge-planning.
+## Reading rules
 
-## Reading rule
+- Treat this as an **architecture reference**, not a runnable product.
+- Do not infer that every documented component is active.
+- Do not treat historical version numbers as the current product naming scheme.
+- Cross-repository links are navigational and do not imply shared legal terms or identical disclosure levels.
 
-Read this repository as a reduced boundary and frame repository, not as the whole project
-and not as a substitute for the actual product-shaped repositories.
-
-## Cross-repo rule
-
-Cross-links are navigational.
-Each repository in the public family must be read on its own scope, depth, and legal terms.
+For real product behavior, check each tool's own README and tests.
