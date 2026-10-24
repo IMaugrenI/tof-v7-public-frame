@@ -1,21 +1,19 @@
-# Öffentliche Leitplanken
+# Technische Leitplanken — Historischer Architekturkontext
 
-Die reduzierte öffentliche Lesart von V7 folgt einigen sichtbaren technischen Leitplanken.
+Diese Seite beschreibt eine **reduzierte Auswahl von Entwurfsvorgaben** aus der früheren V7-Architektur. Sie ist keine allgemeine Checkliste, die automatisch für jedes öffentliche ToF-Systems-Repository gilt.
 
-## Leitplanken
+## Beschriebene Vorgaben
 
-- Docker-first
-- Postgres-only
-- klare Servicegrenzen
-- fail-closed Denke
-- spur- und nachvollziehbarkeitsbewusste Struktur
-- plattformneutrale Innenlogik
-- LLM spät in der Kette, nicht der Wahrheitskern
+- Docker-first-Ausrichtung des Betriebs.
+- Postgres-only-Datenbankausrichtung innerhalb dieser privaten Architektur.
+- Klare Dienst- und Zuständigkeitsgrenzen.
+- Fail-closed-Denken statt stiller Umgehungen.
+- Spuren- und herkunftsbewusste Verarbeitung.
+- Plattformneutrale Kernlogik mit Adaptern am Rand.
+- Sprachmodell-Ausgabe spät in der konzeptionellen Kette, nicht als Quelle technischer Wahrheit.
 
-## Warum nur diese
+## Wie diese Punkte zu verstehen sind
 
-Diese Leitplanken sind öffentlich sicher, weil sie Richtung zeigen, ohne sensible Umsetzungstiefe preiszugeben.
+Sie beschreiben **Architekturabsichten**. Für sich genommen beweisen sie weder Testabdeckung noch Betriebsstatus oder Sicherheitsgarantien. Das eigenständige öffentliche Werkzeug Container Pulse funktioniert beispielsweise bewusst ohne Datenbank.
 
-## Minimalregel
-
-Strukturdisziplin zeigen, ohne interne Betriebsmechanik offenzulegen.
+Private Sicherheits- und Betreiberdetails bleiben ausgespart. Tatsächliche Abhängigkeiten und Funktionen stehen in der [öffentlichen Projektübersicht](https://github.com/IMaugrenI/tof-showcase) und der jeweiligen Produktdokumentation.
