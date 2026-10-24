@@ -1,6 +1,6 @@
 # Start here
 
-This repository is a **public boundary document**, not a runnable product.
+This repository is a **version-tagged architecture reference**, not a runnable product. The V7 identifier remains in its name for historical continuity; it is not required background for understanding the ideas.
 
 > German version: [START_HERE_DE.md](START_HERE_DE.md)
 
@@ -19,7 +19,7 @@ If you have not seen the broader repo family yet, begin with [tof-showcase](http
 
 After reading, you should understand:
 
-- V7 is a bounded system form, not just a bot/chat surface
+- clear system boundaries matter beyond any particular bot or chat interface
 - different spaces have different authority
 - public explanation is deliberately less detailed than private operator/runtime truth
 - planning, recovered material, canon, and runtime are not interchangeable
