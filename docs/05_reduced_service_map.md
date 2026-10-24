@@ -1,12 +1,13 @@
-# Reduced service-map logic
+# Service Boundaries — Reduced Public Model
 
-This repository does not expose a full internal service map.
+This repository does not publish the complete private service map. Instead, the historical architecture reference highlights several design goals:
 
-What it does show in reduced public form:
-- V7 is not a single monolith
-- service boundaries matter
-- external platform logic should die at the edge
-- runtime truth should not depend on symbolic presentation
-- audit, state, retention, and archive thinking are part of the system reading
+- Prefer **separate services with explicit responsibilities** to an undifferentiated monolith.
+- Keep external platform protocols and adapters at the **system edge**.
+- Keep current runtime state independent of symbolic identity or presentation.
+- Distinguish audit records, current state, retention, and archive responsibilities.
+- Preserve controlled transitions between areas of work.
 
-The point is architectural reading, not operational disclosure.
+This is a **conceptual relationship map**, not a list of active services, Docker containers, network routes, or deployed interfaces.
+
+For concrete, runnable public projects, use the [ToF Systems showcase](https://github.com/IMaugrenI/tof-showcase); each tool documents its actual setup and functionality.
