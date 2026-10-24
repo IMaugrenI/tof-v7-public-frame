@@ -1,20 +1,21 @@
-# MANIFEST – tof-v7-public-frame
+# MANIFEST — Architecture Reference (V7)
 
 ## Purpose
 
-This repository provides a reduced public frame for reading V7 honestly without exposing the internal runtime, production infrastructure, or private operator space.
+This repository preserves a reduced public account of an earlier ToF Systems architecture stage. The historical identifier **V7** remains in the repository name, but the public focus is on **system boundaries and responsibility separation**.
 
 ## Required function
 
-1. define what V7 means in reduced public form
-2. keep runtime, canon, archive, Werkbank, and bridge-planning distinct
-3. describe public guardrails without overclaiming disclosure
-4. make the repo-family position explicit
+1. Explain the system architecture in understandable, version-independent language while keeping necessary historical terms accurate.
+2. Keep runtime, canon, archive, workbench (Werkbank), and bridge planning distinct.
+3. Describe public technical guardrails without implying unverified production behavior.
+4. Show the reference's position within the wider public project family.
 
-## Not allowed
+## Prohibited interpretations and disclosures
 
-- present this repo as the full system
-- collapse public reading into runtime truth
-- expose internal operator mechanics
-- publish full production service maps
-- treat this frame as if it were a runnable product repo
+- Do not present this repository as the complete private system or a runnable product.
+- Do not equate public documentation, planning, or archived records with current runtime state.
+- Do not expose private operator mechanics, secrets, or full production service maps.
+- Do not imply that every described design element is already deployed.
+
+For runnable tools and the current public overview see [ToF Showcase](https://github.com/IMaugrenI/tof-showcase).
