@@ -1,54 +1,23 @@
-# Plain V7 Summary
+# System Boundaries — Plain-Language Reference
 
-This is the shortest public-safe explanation of V7 in this repository.
+**This is the short explanation of the historical architecture reference labeled V7.** The label is preserved in the repository name for continuity. It is not a version visitors need to know before exploring ToF Systems.
 
-## What V7 is
+## What the architecture tries to achieve
 
-V7 is the clean technical foundation of ToF.
+Develop a **modular, controlled technical foundation** instead of adding features to an undifferentiated chatbot or LLM wrapper.
 
-It is not presented here as a full release or as the full internal runtime.
+In practical terms, that means:
 
-In plain terms, V7 can be read as:
+- separate intake, checking, processing, state, trace retention, and output preparation;
+- prevent archived material or unfinished planning from silently becoming live state;
+- keep platform integration at the edge;
+- keep identity and expression separate from technical authorization;
+- extend capabilities without mixing responsibilities.
 
-- a modular system architecture
-- a controlled processing chain instead of a loose bot setup
-- a structure that separates intake, checks, processing, state, trace retention, and output preparation
-- a system in which technical structure remains separate from identity and expression
+## Why this repository exists
 
-## What the goal is
+It explains selected architecture decisions and responsibility boundaries. It does **not** provide a full runtime, production deployment guide, complete service inventory, or private security and operator implementation.
 
-The goal of V7 is to build a stable foundation before exposing a large feature surface.
+## Main takeaway
 
-That means:
-
-- clear boundaries between major spaces
-- controlled growth instead of feature sprawl
-- future extensibility without collapsing layers into each other
-- technical clarity before public complexity
-
-## What this repository shows
-
-This public repository shows only a reduced outside-facing reading.
-
-It shows:
-
-- the basic meaning of V7
-- selected public guardrails
-- the separation of major spaces
-- a small public-safe frame for understanding the system direction
-
-## What this repository does not show
-
-It does not publish:
-
-- the private runtime
-- the full service inventory
-- internal operator or security mechanics
-- internal IDs, paths, or secrets
-- full production truth in operational depth
-
-## Short version
-
-V7 is the clean system foundation.
-
-This repository shows the public-safe outline, not the full internal build.
+**An architecture description is not a deployment claim.** For runnable public tools, start at [ToF Showcase](https://github.com/IMaugrenI/tof-showcase). For architectural details, use the documents linked from this repository's [README](README.md).
