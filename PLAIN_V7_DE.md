@@ -1,54 +1,23 @@
-# Klare V7-Kurzfassung
+# Systemgrenzen — Verständliche Kurzfassung
 
-Das ist die kuerzeste oeffentlich unbedenkliche Erklaerung von V7 in diesem Repository.
+**Dies ist die Kurzfassung der früheren Architekturreferenz mit dem Namen V7.** Die Bezeichnung bleibt im Repository-Namen aus Kontinuitätsgründen erhalten. Man muss die Version nicht kennen, um die öffentlichen ToF-Systems-Projekte zu verstehen.
 
-## Was V7 ist
+## Was die Architektur erreichen soll
 
-V7 ist das saubere technische Fundament von ToF.
+Ein **modulares, kontrolliertes technisches Fundament** entwickeln, statt Funktionen in einem undifferenzierten Chatbot oder LLM-Wrapper anzusammeln.
 
-Es wird hier nicht als Vollrelease und nicht als komplette interne Runtime gezeigt.
+Konkret bedeutet das:
 
-Einfach gelesen ist V7:
+- Eingang, Prüfung, Verarbeitung, Zustand, Spurensicherung und Ausgabevorbereitung trennen;
+- verhindern, dass Archivmaterial oder ungeprüfte Planung unbemerkt zum laufenden Zustand werden;
+- Plattformintegration am Rand belassen;
+- Identität und Ausdruck von technischer Berechtigung trennen;
+- Funktionen erweitern, ohne Zuständigkeiten zu vermischen.
 
-- eine modulare Systemarchitektur
-- eine kontrollierte Verarbeitungskette statt eines losen Bot-Aufbaus
-- eine Struktur mit klarer Trennung von Eingang, Pruefung, Verarbeitung, Zustand, Spurensicherung und Ausgabebau
-- ein System, in dem technische Struktur von Identitaet und Ausdruck getrennt bleibt
+## Warum es dieses Repository gibt
 
-## Was das Ziel ist
+Es erklärt ausgewählte Architekturentscheidungen und Verantwortungsgrenzen. Es liefert **keine** vollständige Runtime, Produktiv-Deployment-Anleitung, komplette Dienstliste oder private Sicherheits- und Betreiberimplementierung.
 
-Das Ziel von V7 ist, zuerst ein tragfaehiges Fundament zu bauen und nicht sofort eine grosse Oberflaeche zu zeigen.
+## Wichtigste Aussage
 
-Das bedeutet:
-
-- klare Grenzen zwischen den grossen Raeumen
-- kontrolliertes Wachstum statt Feature-Mischung
-- spaetere Erweiterbarkeit ohne Ebenenvermischung
-- technische Klarheit vor oeffentlicher Komplexitaet
-
-## Was dieses Repository zeigt
-
-Dieses oeffentliche Repository zeigt nur eine reduzierte Aussenlesart.
-
-Es zeigt:
-
-- die Grundbedeutung von V7
-- ausgewaehlte oeffentliche Leitplanken
-- die Trennung der grossen Raeume
-- einen kleinen oeffentlich unbedenklichen Rahmen zum Verstehen der Systemrichtung
-
-## Was dieses Repository nicht zeigt
-
-Es veroeffentlicht nicht:
-
-- die private Runtime
-- das vollstaendige Service-Inventar
-- interne Operator- oder Sicherheitsmechanik
-- interne IDs, Pfade oder Secrets
-- die Produktivwahrheit in operativer Tiefe
-
-## Kurzform
-
-V7 ist das saubere Systemfundament.
-
-Dieses Repository zeigt den oeffentlichen Rahmen, nicht den inneren Vollausbau.
+**Eine Architekturbeschreibung ist kein Betriebsnachweis.** Praktisch nutzbare öffentliche Werkzeuge findest du im [ToF Showcase](https://github.com/IMaugrenI/tof-showcase). Architekturdetails stehen in den Dokumenten, die das [README](README_DE.md) verlinkt.
