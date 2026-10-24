@@ -6,6 +6,8 @@
 
 > Die englische Hauptfassung liegt in `README.md`.
 
+> **Neu hier?** Lies [START_HERE_DE.md](START_HERE_DE.md). Dieses Repo ist dokumentationsorientiert; du musst nichts installieren.
+
 Reduzierter öffentlicher Rahmen für V7 mit ausdrücklichen Grenzen zwischen Runtime, Kanon, Archiv, Werkbank und bridge_planning.
 
 Ich nutze dieses Repo, um zu zeigen, wie V7 öffentlich gelesen werden soll, ohne so zu tun, als sei öffentliche Erklärung dasselbe wie private Runtime-Wahrheit.

@@ -6,6 +6,8 @@
 
 > English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
+> **New here?** Read [START_HERE.md](START_HERE.md). This repo is documentation-first; no installation is required.
+
 Reduced public frame for V7 with explicit boundaries between runtime, canon, archive, Werkbank, and bridge_planning.
 
 I use this repo to show how V7 should be read publicly without pretending that public explanation is the same thing as private runtime truth.
