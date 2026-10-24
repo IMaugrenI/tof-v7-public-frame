@@ -1,47 +1,31 @@
-# Ziel und Umfang
+# Zweck und Umfang dieser Architekturreferenz
 
-Dieses Dokument benennt das oeffentlich unbedenkliche Ziel des V7-Rahmens.
+Die öffentliche Referenz bewahrt eine frühere, historisch **V7** genannte ToF-Entwicklungsrichtung: Zuerst ein stabiles technisches Fundament schaffen und die Grenzen ausdrücklich festlegen, bevor das System wächst.
 
-## Kernziel
+## Warum das Fundament wichtig ist
 
-Das oeffentliche Ziel von V7 laesst sich einfach sagen:
+Ohne solche Grenzen drohen größeren Systemen:
 
-Zuerst ein stabiles technisches Fundament bauen und erst danach kontrolliert nach aussen wachsen.
+- vermischte oder unklare Zuständigkeiten;
+- Verwechslungen von laufendem Zustand, Archiv und Referenzmaterial;
+- plattformspezifische Abkürzungen innerhalb der Kernlogik;
+- Dokumentation, die mehr nahelegt als vorhandene Nachweise tragen.
 
-## Warum das wichtig ist
+Das Ziel ist **disziplinierte Systementwicklung** statt einer Sammlung unverbundener Funktionen.
 
-Ohne tragfaehiges Fundament kippen groessere Systeme oft in:
+## Was dieses Repository umfasst
 
-- vermischte Zustaendigkeiten
-- unklare Wahrheitsraeume
-- plattformspezifische Abkuerzungen im Kern
-- Dokumentation, die mehr behauptet als die Umsetzung tragen kann
+- Reduzierte öffentliche System- und Zuständigkeitsmodelle.
+- Ausgewählte Grenzen zwischen Datenräumen und Autorität.
+- Architekturleitplanken und konzeptionelle Verarbeitungsreihenfolge.
+- Klare Grenzen dessen, was sich aus öffentlicher Dokumentation schließen lässt.
 
-V7 versucht das zu vermeiden, indem Struktur und Trennung zuerst kommen.
+## Was nicht enthalten ist
 
-## Oeffentlicher Umfang dieses Repositories
+Dies ist **keine** Deployment-Anleitung, vollständige private Dienstübersicht, Produktivfreigabe, Betreiberanleitung oder Veröffentlichung interner Schutzmechanismen, Zugangsdaten, Pfade und Kennungen.
 
-Dieses Repository ist bewusst begrenzt.
+Nutzbare öffentliche Werkzeuge: [ToF Systems Projektübersicht](https://github.com/IMaugrenI/tof-showcase).
 
-Sein Umfang ist:
+## Leseregel
 
-- erklaeren, was V7 in reduzierter Form ist
-- zeigen, welche Grenzen wichtig sind
-- ausgewaehlte technische Leitplanken sichtbar machen
-- das Projekt lesbar machen, ohne sensible Tiefe zu veroeffentlichen
-
-## Nicht-Ziele dieses Repositories
-
-Dieses Repository ist nicht gedacht als:
-
-- vollstaendige Runtime-Karte
-- Produktiv-Deployment-Anleitung
-- Freigabe interner Operatorlogik
-- Offenlegung interner Sicherheitsarchitektur
-- Ausgabe interner Zustaende, Pfade oder Kennungen
-
-## Praktische Leseregel
-
-Lies dieses Repository als oeffentliche Uebersicht.
-
-Lies es nicht als das vollstaendige interne System.
+Architekturentwurf ist kein Betriebsnachweis. Die Kennung V7 dokumentiert die Herkunft dieser Referenz und beschreibt nicht den heutigen Status aller ToF-Systems-Projekte.
