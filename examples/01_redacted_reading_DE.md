@@ -1,28 +1,26 @@
-# Reduzierte Lesart
+# Beispiel — Einen reduzierten Architekturausschnitt lesen
 
-Dieses Beispiel zeigt eine sehr kleine öffentlich unbedenkliche Lesart von V7.
+Dieses Beispiel zeigt, wie sich ein **historischer ToF-Architekturausschnitt** einordnen lässt, ohne daraus einen Betriebsnachweis abzuleiten.
 
-Es verwendet **keine** echte Runtime-Dateien und keine internen Betriebsdetails.
+Das Repository behält die frühere Bezeichnung **V7** zur Nachvollziehbarkeit bei. Die folgenden Prinzipien lassen sich auch ohne Kenntnis der Versionsgeschichte verstehen. Es werden keine echten Runtime-Dateien oder internen Betreiberdetails verwendet.
 
-## Beispiel-Lesart
+## Beispiel
 
-Angenommen, ein kleiner V7-Ausschnitt verweist auf:
+Angenommen, eine öffentliche Architekturskizze unterscheidet:
 
-- einen technischen Kernraum
-- eine getrennte Ausdrucksschicht
-- eine klare Grenze zwischen aktiver Wahrheit und Referenzräumen
+- einen technischen Kern;
+- eine getrennte Identitäts- und Ausdrucksebene;
+- aktiven Runtime-Zustand von Referenz- und historischen Datenräumen.
 
-## Öffentlich unbedenkliche Folgerung
+## Was sich daraus ableiten lässt
 
-Eine reduzierte öffentliche Lesart darf sagen:
+- Der Entwurf trennt technische Verantwortlichkeiten.
+- Darstellung schafft keine technische Autorität.
+- Runtime, Kanon und Archiv haben unterschiedliche Bedeutung.
+- Übergänge zwischen Datenräumen dürfen nicht ohne Nachweise vorausgesetzt werden.
 
-- das System ist geschichtet
-- Ausdruck ist nicht identisch mit technischer Wahrheit
-- Runtime ist nicht dasselbe wie Kanon oder Archiv
-- das Design hängt von Trennung statt Vermischung ab
+## Was sich nicht ableiten lässt
 
-## Ergebnis
+Das Beispiel beweist weder eine laufende Implementierung noch veröffentlicht es eine produktive Dienstübersicht oder ein Deployment. Es erklärt die **Entwurfsidee**, ohne Betriebsfakten zu erfinden.
 
-Das Ergebnis ist weder ein Release-Hinweis noch eine Runtime-Map.
-
-Es ist nur eine kleine Außenlesart, die die strukturelle Idee bewahrt, ohne den inneren Bau offenzulegen.
+[Architekturüberblick](../README_DE.md)
