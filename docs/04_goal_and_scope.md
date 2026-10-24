@@ -1,47 +1,31 @@
-# Goal and Scope
+# Purpose and Scope of This Architecture Reference
 
-This document states the public-safe goal of the V7 frame.
+The public reference preserves an earlier ToF development direction, historically labeled **V7**: build a stable technical foundation and maintain explicit boundaries before expanding the system.
 
-## Core goal
+## Why the foundation matters
 
-The public goal of V7 can be described simply:
+Without such boundaries, larger systems risk:
 
-Build a stable technical foundation first, then grow outward in a controlled way.
+- mixed or unclear responsibilities;
+- confusion between running state, archived history, and reference material;
+- platform-specific shortcuts embedded in core logic;
+- documentation that implies more than implementation evidence can support.
 
-## Why that matters
+The goal is **disciplined system development** rather than an accumulation of unrelated features.
 
-Without a stable foundation, larger systems tend to collapse into:
+## What this repository covers
 
-- mixed responsibilities
-- unclear truth spaces
-- platform-specific shortcuts in the core
-- documentation that says more than the implementation can carry
+- Reduced public system and responsibility models.
+- Selected data-space and authority boundaries.
+- Architectural guardrails and conceptual processing order.
+- Clear limits on what can be concluded from public documentation.
 
-V7 tries to avoid that by making structure and separation the first priority.
+## What it does not cover
 
-## Public scope of this repository
+This is **not** a deployment guide, complete private service map, production release, operator manual, or publication of internal security mechanisms, credentials, paths, and identifiers.
 
-This repository is limited on purpose.
+For usable public code, see the [ToF Systems project overview](https://github.com/IMaugrenI/tof-showcase).
 
-Its scope is:
+## Reading rule
 
-- explaining what V7 is in a reduced form
-- showing which boundaries matter
-- showing selected technical guardrails
-- making the project legible without publishing sensitive depth
-
-## Non-goals of this repository
-
-This repository is not meant to be:
-
-- a full runtime map
-- a production deployment guide
-- a release of private operator logic
-- a disclosure of internal security design
-- a dump of internal state, paths, or identifiers
-
-## Practical reading rule
-
-Read this repository as a public overview.
-
-Do not read it as the full internal system.
+Architecture design is not operational proof. The V7 identifier records the origin of this reference; it does not describe the current status of all ToF Systems work.
