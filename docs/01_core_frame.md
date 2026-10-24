@@ -1,31 +1,20 @@
-# Core Frame
+# Architecture Reference — Core Concepts
 
-V7 is a controlled system form, not a loose accumulation of features.
+This document explains the **system-boundary principles** recorded in the earlier ToF architecture stage labeled **V7**. The version number is retained for historical continuity; it is not a product name visitors need to learn.
 
-## Reduced public reading
+## Core principles
 
-In this public frame, V7 is read through a few stable lines:
+- **Technical authority stays separate from expression.** Identity, wording, or symbols do not confer operating permissions.
+- **Different spaces retain different responsibilities.** Planning, workbench material, archived records, governed references, and runtime state must not be silently merged.
+- **Evidence and runtime state are not interchangeable.** A document describing intended behavior is not proof of active behavior.
+- **Language-model output is not the authority source.** Generated text requires appropriate grounding and cannot independently approve actions.
 
-- technical structure remains separate from expression
-- spaces remain separated instead of collapsing into each other
-- runtime truth is not the same as archive, canon, Werkbank, or planning
-- language-model output is not the truth core
+## What the historical reference represents
 
-## What V7 is
+The earlier V7 direction emphasized a controlled system architecture, clear internal boundaries, and deliberate continuation from previous work rather than unstructured feature accumulation.
 
-V7 may be publicly read as:
+It was **not** designed as just a bot/chat surface or a simple LLM wrapper. Equally, this public repository is **not** a complete implementation, full runtime release, or disclosure of private operating mechanics.
 
-- a controlled structural form
-- a system direction with explicit separation
-- a technical and symbolic model kept under boundaries
-- a deliberate continuation rather than a random rebuild
+## Where to go next
 
-## What V7 is not
-
-V7 is not:
-
-- a normal bot surface
-- a simple LLM wrapper
-- a flat chat architecture
-- a full public runtime release
-- a total disclosure of internal mechanics
+[Space and responsibility boundaries](02_space_boundaries.md) · [Processing model](04_public_chain.md) · [Public project family](https://github.com/IMaugrenI/tof-showcase)
