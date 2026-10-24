@@ -1,6 +1,6 @@
 # Hier starten
 
-Dieses Repository ist ein **öffentliches Boundary-Dokument** und kein lauffähiges Produkt.
+Dieses Repository ist eine **versionsbezogene öffentliche Architekturreferenz**, kein lauffähiges Produkt. V7 bleibt aus Kontinuitätsgründen im Namen; die interne Versionsgeschichte muss man nicht kennen.
 
 > English version: [START_HERE.md](START_HERE.md)
 
@@ -17,7 +17,7 @@ Wenn du die größere Repo-Familie noch nicht kennst, beginne mit [tof-showcase]
 
 ## Was du danach verstanden haben solltest
 
-- V7 ist eine begrenzte Systemform und nicht nur eine Bot-/Chat-Oberfläche
+- klare Systemgrenzen sind auch jenseits von Bot- oder Chat-Oberflächen wichtig
 - unterschiedliche Räume besitzen unterschiedliche Autorität
 - öffentliche Erklärung ist bewusst weniger detailliert als private Betreiber-/Runtime-Wahrheit
 - Planung, Recovery-Material, Kanon und Runtime sind nicht austauschbar
