@@ -1,31 +1,20 @@
-# Kernrahmen
+# Architekturreferenz — Grundprinzipien
 
-V7 ist eine kontrollierte Systemform, keine lose Ansammlung von Features.
+Dieses Dokument erklärt die **Systemgrenzen** einer früheren ToF-Architekturphase, die intern **V7** genannt wurde. Die Versionsnummer bleibt aus historischen Gründen erhalten; Besucher müssen sie nicht kennen, um die Prinzipien zu verstehen.
 
-## Reduzierte öffentliche Lesart
+## Zentrale Grundsätze
 
-In diesem öffentlichen Rahmen wird V7 über einige stabile Linien gelesen:
+- **Technische Autorität bleibt vom Ausdruck getrennt.** Identität, Formulierung oder Symbole schaffen keine Betriebsberechtigung.
+- **Unterschiedliche Bereiche behalten eigene Zuständigkeiten.** Planung, Werkbank, Archiv, geregelte Referenzen und Runtime-Zustand dürfen nicht unbemerkt verschmelzen.
+- **Dokumentation und Runtime-Zustand sind nicht austauschbar.** Ein Dokument mit beabsichtigtem Verhalten beweist keinen laufenden Dienst.
+- **Sprachmodell-Ausgabe ist keine Autoritätsquelle.** Generierte Texte brauchen geeignete Belege und dürfen Aktionen nicht selbstständig freigeben.
 
-- technische Struktur bleibt von Ausdruck getrennt
-- Räume bleiben getrennt, statt ineinander zu kippen
-- Runtime-Wahrheit ist nicht dasselbe wie Archiv, Kanon, Werkbank oder Planung
-- Sprachmodell-Ausgabe ist nicht der Wahrheitskern
+## Was diese historische Referenz beschreibt
 
-## Was V7 ist
+Die frühere V7-Ausrichtung betonte eine kontrollierte Systemarchitektur, eindeutige Grenzen und die bewusste Weiterentwicklung früherer Arbeit statt einer ungeordneten Sammlung von Funktionen.
 
-V7 kann öffentlich gelesen werden als:
+Der Ansatz war **nicht** nur als Bot- oder Chat-Oberfläche oder einfacher LLM-Wrapper gedacht. Dieses öffentliche Repository ist aber ebenso **keine** vollständige Implementierung, Runtime-Freigabe oder Offenlegung privater Betriebsmechanismen.
 
-- kontrollierte Strukturform
-- Systemrichtung mit ausdrücklicher Trennung
-- technisches und symbolisches Modell unter klaren Grenzen
-- bewusste Fortsetzung statt zufälligem Neubau
+## Weiterführende Dokumente
 
-## Was V7 nicht ist
-
-V7 ist nicht:
-
-- gewöhnliche Bot-Oberfläche
-- einfacher LLM-Wrapper
-- flache Chat-Architektur
-- vollständige öffentliche Runtime-Freigabe
-- totale Offenlegung interner Mechaniken
+[Raum- und Zuständigkeitsgrenzen](02_space_boundaries_DE.md) · [Verarbeitungsmodell](04_public_chain_DE.md) · [Öffentliche Projektfamilie](https://github.com/IMaugrenI/tof-showcase)
