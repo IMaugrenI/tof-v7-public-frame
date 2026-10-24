@@ -1,15 +1,15 @@
-# Public chain
+# Processing Model — Reduced Public View
 
-This repository does not publish a full internal chain.
-It only provides a reduced public chain reading.
+This architecture reference intentionally does **not** publish a complete runtime chain. The following sequence retains broad areas from the earlier V7 processing model:
 
-A minimal public reading is:
+1. **Ingress / edge perception:** accept external input through defined interfaces.
+2. **Gate / governance checks:** establish admission and authorization context.
+3. **Safety / analysis:** apply relevant checks and interpret accepted material.
+4. **Workers / state / retention:** perform bounded work while distinguishing live state and retained records.
+5. **Archive / vector / LLM / output:** maintain later evidence, retrieval, generation, and presentation roles.
 
-1. ingress / edge perception
-2. gate / governance checks
-3. safety / analysis
-4. worker / state / retention discipline
-5. archive / vector / llm / output as later layers
+The grouping is **illustrative**. It does not claim exactly five deployed services, a fixed order for every request, or that all functions have been publicly demonstrated.
 
-The important public point is not the exact private implementation order.
-The important point is that language-model output is late and not the truth core.
+The essential distinction is that language-model output comes after controlled input handling in the described approach. It is **not** itself the truth core or authorization authority.
+
+[Core concepts](01_core_frame.md) · [Service boundaries](05_reduced_service_map.md)
