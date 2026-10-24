@@ -1,12 +1,13 @@
-# Reduzierte Service-Map-Logik
+# Dienstgrenzen — Reduziertes öffentliches Modell
 
-Dieses Repository zeigt keine vollständige interne Service-Map.
+Dieses Repository veröffentlicht keine vollständige private Service-Map. Stattdessen hebt die historische Architekturreferenz mehrere Entwurfsziele hervor:
 
-Was es in reduzierter öffentlicher Form zeigt:
-- V7 ist kein einzelner Monolith
-- Servicegrenzen sind wichtig
-- externe Plattformlogik soll am Rand sterben
-- Runtime-Wahrheit soll nicht von symbolischer Darstellung abhängen
-- Audit-, State-, Retention- und Archivdenken gehören zur Systemlesart
+- **Getrennte Dienste mit eindeutigen Zuständigkeiten** statt eines ununterscheidbaren Monolithen bevorzugen.
+- Externe Plattformprotokolle und Adapter am **Systemrand** belassen.
+- Laufenden Runtime-Zustand von symbolischer Identität oder Darstellung unabhängig halten.
+- Audit-Aufzeichnungen, aktuellen State, Retention und Archiv als unterschiedliche Aufgaben behandeln.
+- Kontrollierte Übergänge zwischen Arbeitsbereichen beibehalten.
 
-Der Punkt ist architektonische Lesart, nicht operative Offenlegung.
+Das ist eine **konzeptionelle Beziehungsskizze**, keine Liste aktiver Dienste, Docker-Container, Netzwerkrouten oder ausgerollter Schnittstellen.
+
+Konkrete, nutzbare öffentliche Projekte stehen im [ToF Systems Showcase](https://github.com/IMaugrenI/tof-showcase). Jedes Werkzeug dokumentiert seine eigene Einrichtung und Funktion.
