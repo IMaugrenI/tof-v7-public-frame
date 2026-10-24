@@ -1,28 +1,26 @@
-# Redacted Reading
+# Example — Reading a Reduced Architecture Fragment
 
-This example shows a very small public-safe reading of V7.
+This example illustrates how to interpret a **historical ToF architecture fragment** without treating it as evidence of a deployed system.
 
-It does **not** use real runtime files or internal operational detail.
+The repository retains the earlier **V7** label for continuity, but the principles below do not depend on the version name. No real runtime files or internal operator details are used.
 
-## Example reading
+## Example
 
-Assume a small V7 fragment points to:
+Assume a public architecture sketch distinguishes:
 
-- a technical core space
-- a separate expression layer
-- a clear boundary between active truth and reference spaces
+- a technical core;
+- a separate identity and expression layer;
+- active runtime state from reference and historical-record spaces.
 
-## Public-safe conclusion
+## What can be concluded
 
-A reduced public reading may say:
+- The design separates technical responsibilities.
+- Presentation does not establish technical authority.
+- Runtime, canon, and archive have different meanings.
+- Transitions between data spaces should not be assumed without evidence.
 
-- the system is layered
-- expression is not identical with technical truth
-- runtime is not the same as canon or archive
-- the design depends on separation rather than collapse
+## What cannot be concluded
 
-## Result
+This example does not prove that an implementation is running, publish a production service map, or document a deployment. It demonstrates how to read the **design idea** without inventing runtime facts.
 
-The result is not a release note and not a runtime map.
-
-It is only a small outside reading that preserves the structural idea without exposing the internal build.
+[Architecture overview](../README.md)
