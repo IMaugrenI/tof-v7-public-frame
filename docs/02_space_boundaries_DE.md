@@ -1,27 +1,21 @@
-# Raumgrenzen
+# Grenzen zwischen Zuständigkeiten und Datenräumen
 
-Ein zentrales V7-Prinzip ist die strikte Trennung der Räume.
+Die frühere Architekturreferenz mit der Bezeichnung **V7** betont die strikte Trennung von Datenräumen und Autorität. Diese Unterscheidungen bleiben auch ohne Kenntnis der Versionsgeschichte sinnvoll.
 
-## Haupträume in reduzierter Lesart
+## Bereiche im öffentlichen Modell
 
-- **Runtime** = aktive technische Wahrheit
-- **Kanon** = strukturierter Referenzraum
-- **Archiv** = Spur- und historischer Belegraum
-- **Werkbank** = Bergungs- und Zerlegungsraum
-- **Vorplanung** = Brücken- und Fortsetzungsraum
+| Bereich | Zweck | Nicht gleichzusetzen mit |
+| --- | --- | --- |
+| **Runtime** | Tatsächlich aktive Dienste und aktueller Betriebszustand | Planungsdokumente oder archivierte Belege |
+| **Kanon** | Geregeltes Referenzmaterial | Aktueller Runtime-Zustand |
+| **Archiv** | Gespeicherte Aufzeichnungen und Herkunft | Automatisch gültige aktuelle Fakten |
+| **Werkbank** | Untersuchung und Vorbereitung älteren Materials | Freigegebene und ausgerollte Änderungen |
+| **Bridge Planning / Vorplanung** | Planung und Prüfung möglicher nächster Schritte | Laufende Implementierung |
 
 ## Warum das wichtig ist
 
-Diese Räume dürfen sich gegenseitig beeinflussen, aber sie dürfen nicht stillschweigend dasselbe werden.
+Material darf andere Bereiche nur über einen **ausdrücklichen und kontrollierten Übergang** beeinflussen. Historische Belege werden nicht automatisch zur aktuellen Wahrheit; ein Plan nicht automatisch zu ausführbarem Code; Identität oder Darstellung nicht zum Ersatz technischer Kontrollen.
 
-Das bedeutet:
+Das Dokument zeigt konzeptionelle Grenzregeln, **nicht** die vollständige private Weiterleitung, Berechtigungsstruktur oder einen unabhängigen Betriebsnachweis.
 
-- Werkbank ist nicht Runtime
-- Planung ist nicht Runtime
-- Archiv ist nicht aktueller Zustand
-- Kanon ist nicht aktive State-Wahrheit
-- symbolischer Ausdruck ersetzt nicht technische Struktur
-
-## Öffentliche Folge
-
-Dieses Repository zeigt nur die Grenzlogik, nicht die volle operative Tiefe dahinter.
+[Grundprinzipien](01_core_frame_DE.md) · [Leseregeln](06_reading_rules_DE.md)
