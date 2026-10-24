@@ -1,89 +1,47 @@
-# ToF V7 Public Frame
+# Architekturreferenz — Systemgrenzen (V7)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/ToF_Banner.png" alt="ToF / V7 Public Frame Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/IMaugrenI/IMaugrenI/main/assets/banner/ToF_Banner.png" alt="ToF Systems Architekturbanner" width="100%" />
 </p>
 
-> Die englische Hauptfassung liegt in `README.md`.
+**Wie sich Zuständigkeiten, Datenräume und operative Autorität in einem lokalen System sauber trennen lassen.**
 
-> **Neu hier?** Lies [START_HERE_DE.md](START_HERE_DE.md). Dieses Repo ist dokumentationsorientiert; du musst nichts installieren.
+Dieses Repository dokumentiert eine **reduzierte öffentliche Architekturreferenz** aus einer älteren, versionsbezogenen Entwicklungsphase von ToF. Der Repository-Name behält **V7** bei, damit bestehende Links und Dokumente gültig bleiben. Um die beschriebenen Prinzipien zu verstehen, muss man die interne Versionsgeschichte **nicht** kennen.
 
-Reduzierter öffentlicher Rahmen für V7 mit ausdrücklichen Grenzen zwischen Runtime, Kanon, Archiv, Werkbank und bridge_planning.
+[English](README.md) · [Einstieg](START_HERE_DE.md) · [Projektübersicht](https://github.com/IMaugrenI/tof-showcase)
 
-Ich nutze dieses Repo, um zu zeigen, wie V7 öffentlich gelesen werden soll, ohne so zu tun, als sei öffentliche Erklärung dasselbe wie private Runtime-Wahrheit.
+## Die Architekturfrage
 
-Dieses Repository ist eine öffentliche Erklärungsschicht. Es zeigt Boundary-Framing und Leseregeln stärker als Umsetzungstiefe.
+Wie bleibt ein größeres lokales System nachvollziehbar und kontrollierbar, wenn Informationsquellen, Verarbeitungsschritte, Planung und operative Dienste unterschiedliche Aufgaben besitzen?
 
-Lies dieses Repo, wenn du die öffentliche Grenze von V7 verstehen willst und nicht seine private Runtime.
+Die Referenz behandelt die Trennung von:
+- **Runtime:** dem tatsächlich ausgeführten Betrieb.
+- **Canon:** ausdrücklich geregelten und übernommenen Referenzinhalten.
+- **Archiv:** erhaltenem Material ohne automatische Autorität über die aktive Runtime.
+- **Werkbank:** Vorbereitung, Untersuchung und Review außerhalb des Betriebs.
+- **Bridge Planning:** Überführung vorbereiteter Inhalte in mögliche nächste Schritte, ohne sie stillschweigend ausführbar zu machen.
 
-## Was dieses Repo ist
+Diese Begriffe beschreiben **Verantwortungsgrenzen**, keine nachgewiesene produktive Implementierung.
 
-Dieses Repository ist der reduzierte öffentliche Boundary-Frame für V7.
+## Die Referenz lesen
 
-## Für wen es gedacht ist
+| Dokument | Schwerpunkt |
+| --- | --- |
+| [Kernarchitektur](docs/01_core_frame.md) | Reduzierte öffentliche Architektursicht. |
+| [Räumliche Trennung](docs/02_space_boundaries.md) | Warum unterschiedliche Bereiche und ihre Zuständigkeiten getrennt bleiben. |
+| [Öffentliche Leitplanken](docs/03_public_guardrails.md) | Grenzen öffentlicher Aussagen und Veröffentlichungen. |
+| [Verarbeitungskette](docs/04_public_chain.md) | Einordnung der reduzierten Kettendarstellung. |
+| [Dienstübersicht](docs/05_reduced_service_map.md) | Eingeschränkte, bereinigte Darstellung von Dienstbeziehungen. |
+| [Leseregeln](docs/06_reading_rules.md) | Dokumentation, Vorschlag und Betriebsnachweis auseinanderhalten. |
 
-Dieses Repo ist für technische Leser, die bereits den breiteren öffentlichen Kontext kennen und jetzt die engere öffentliche Lesart für V7 sehen wollen.
+## Warum die Referenz öffentlich bleibt
 
-## Was es nicht ist
+Der übertragbare Teil ist die **Methode**: eindeutige Zuständigkeiten festlegen, Grenzen schützen, Herkunft nachvollziehbar halten und Vorschläge von freigegebenen und tatsächlich laufenden Zuständen unterscheiden. Dafür braucht man keine bestimmte interne Versionsnummer.
 
-Dieses Repo ist nicht die interne Runtime, nicht die Produktionsinfrastruktur und kein Ersatz für private operative Wahrheit.
+Die Referenz richtet sich an Menschen, die sich für Local-First-Systemarchitektur, Diensttrennung, überprüfbare Dokumentation und Autoritätsgrenzen interessieren.
 
-## Wohin du als Nächstes gehen kannst
+## Was sie nicht behauptet
 
-- `tof-showcase` — breiterer öffentlicher Architektur- und Familienüberblick
-- `docs/01_core_frame.md` — reduzierte Kernlesart
-- `docs/02_space_boundaries.md` — Trennung der Räume
-- `docs/06_reading_rules.md` — wie dieses Repo ehrlich gelesen werden soll
+Dieses Repository enthält weder eine produktive Runtime noch eine vollständige private Dienstübersicht, Zugangsdaten oder die gesamte beschriebene Implementierung. Öffentliche Diagramme und Begriffe sind **Architekturbeschreibungen**, keine Betriebsbeweise oder pauschalen Produktionsfreigaben.
 
-## Warum dieses Repo existiert
-
-Dieses Repo existiert, um zu erklären, wie V7 öffentlich gelesen werden sollte, während öffentliche Erklärung und operative Wahrheit klar getrennt bleiben.
-
-Es ist ein strengerer zweiter Schritt nach dem breiteren Familien-Frame und nicht der erste Einstiegspunkt für die meisten Leser.
-
-## Meine Rolle in diesem Repo
-
-Meine Rolle hier ist vor allem:
-
-1. Boundary-Framing und Trennlogik
-2. Leseregeln für ehrliche öffentliche Interpretation
-3. Scope-Reduktion und Review
-
-## Einstieg
-
-- [`docs/01_core_frame.md`](docs/01_core_frame.md) — reduzierte Kernlesart
-- [`docs/02_space_boundaries.md`](docs/02_space_boundaries.md) — Trennung der Räume
-- [`docs/03_public_guardrails.md`](docs/03_public_guardrails.md) — öffentliche Leitplanken
-- [`docs/04_public_chain.md`](docs/04_public_chain.md) — reduzierte Kettenlesart
-- [`docs/05_reduced_service_map.md`](docs/05_reduced_service_map.md) — redigierte service_map-Logik
-- [`docs/06_reading_rules.md`](docs/06_reading_rules.md) — wie dieses Repo ehrlich gelesen werden soll
-
-## Was dieses Repo zeigt
-
-1. wie V7 öffentlich als begrenzte Systemform gerahmt wird
-2. warum Runtime, Kanon, Archiv, Werkbank und bridge_planning getrennt bleiben müssen
-3. reduzierte öffentliche Ketten- und service_map-Lesart
-4. öffentliche Leitplanken für ehrliche Interpretation
-
-## Warum dieses Repo öffentlich existiert
-
-1. um zu verhindern, dass V7 nur als Bot-Oberfläche missverstanden wird
-2. um zu verhindern, dass öffentliche Erklärung mit interner Runtime-Wahrheit verwechselt wird
-3. um Systemgrenzen lesbar zu machen, ohne operative Details offenzulegen
-
-## Für Arbeitgeber
-
-Dieses Repo ist nützlich, wenn du sehen willst, wie ich mit Folgendem umgehe:
-
-1. striktem Boundary-Denken
-2. Systemlesart und geschichteter Trennung
-3. reduziertem öffentlichem Framing ohne falsche Behauptungen
-4. Architekturdokumentation unter öffentlichen Grenzen
-
-## Verwandte öffentliche Repos
-
-- [`tof-showcase`](https://github.com/IMaugrenI/tof-showcase) — breiter öffentlicher Architekturrahmen
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lokaler Builder-Stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem lokales Wissenssystem
-- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — Recovery-Basis
-- [`tof-bridge-planning-method`](https://github.com/IMaugrenI/tof-bridge-planning-method) — bridge_planning-Basis
+Die praktisch nutzbaren öffentlichen Werkzeuge findest du unter [ToF Showcase](https://github.com/IMaugrenI/tof-showcase) und auf dem [GitHub-Profil](https://github.com/IMaugrenI). Jedes Produkt-Repository dokumentiert seinen Funktionsumfang und seinen eigenen Betriebsweg.
